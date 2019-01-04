@@ -22,7 +22,7 @@ $app->get('/ws/healthz/', function () {
 
 $app->get('/ws/info/', function () {
     return json_encode(array(
-        'id' => 'nationalparks-py',
+        'id' => 'nationalparks-php',
         'displayName' => 'National Parks (PHP)',
         'type' => 'cluster',
         'center' => array('latitude' => '47.039304', 'longitude' => '14.505178'),
